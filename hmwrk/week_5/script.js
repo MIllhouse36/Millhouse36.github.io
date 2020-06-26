@@ -12,10 +12,8 @@ function timeOneDay() {
         time.unshift(formattedTime);
         
     }
-    for (var i = 8; i < time.length - 6; i++) {
         var textBlock = time[i];
 
-        var newDiv = document.createElement("div")
         newDiv.textContent = textBlock;
         newDiv.setAttribute("class", "hour text-center col-2")
 
